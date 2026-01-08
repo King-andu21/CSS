@@ -22,7 +22,7 @@
 .nav{
     line-height: 60px;
     height: 60px;
-    background-color: #444
+    background-color: #444;
 }
 .nav li{
     display: block;
@@ -37,12 +37,33 @@
     list-style-type: none;
 }
 .content{
-    padding: 0 0px;
-    
+    padding: 60px;
+}
+.content img{
+    max-width:100%;
+}
+.main{
+    max-width: 70%;
+    display: block;
+    float: left;
+}
+.main h2{
+    padding: 20px 0px;
+}
+.sidebar{
+    max-width: 25%;
+    display: block;
+    float: right;
+    border: 2px solid #aaa;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+.sidebar h3{
+    padding: 20px 0px;
 }
 .footer{
-    line-height: 40px;
-    padding-left: 20px;
+    clear: both;
+    border-top: 2px solid #aaa;
 }
 .footer a{
     color: darkorange;
@@ -51,9 +72,11 @@
 .footer ul{
     height: 40px;
     list-style-type: none;
+
 }
 .footer li{
     display: block;
     float: left;
     line-height: 40px;
+    padding-right: 20px;
 }
